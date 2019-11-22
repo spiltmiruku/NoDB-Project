@@ -12,14 +12,10 @@ const PORT = 7777
 
 //ENDPOINTS
 
-// app.get('/api/pokemon', pokeCtrol.getAllPokemon);    EXAMPLE CODE
-
-app.get('/api/  ')      
-app.post('/api/ ')
-app.put('/api/  ')
-app.delete('/api/   ')
-
-
+app.get('/api/flights', tripsCtrl.getFlights)      
+app.post('/api/flights', tripsCtrl.add)
+app.put('/api/flights/:id', tripsCtrl.edit)
+app.delete('/api/flights/:id', tripsCtrl.delete)
 
 
 app.listen(PORT, () => console.log(gradient.pastel(`Ready for takeoff on runway ${PORT}`)))

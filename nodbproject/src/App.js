@@ -7,6 +7,7 @@ import MainPage from './Components/MainPage'
 import UpcomingTrips from './Components/UpcomingTrips';
 
 
+
 class App extends Component {
   constructor() {
     super();
@@ -14,9 +15,11 @@ class App extends Component {
             onUpcomingTripsPage: false, 
     };
   }
+
+  
+
   render() {
     return <div className="App">
-       <FlightCard />
        <Header />
        <MainPage />
        <UpcomingTrips />
