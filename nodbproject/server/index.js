@@ -10,4 +10,16 @@ app.use(express.json());
 
 const PORT = 7777
 
-app.listen(PORT, () => console.log(gradient.rainbow(`Ready for takeoff on runway ${PORT}`)))
+//ENDPOINTS
+
+// app.get('/api/pokemon', pokeCtrol.getAllPokemon);    EXAMPLE CODE
+
+app.get('/api/  ')      
+app.post('/api/ ')
+app.put('/api/  ')
+app.delete('/api/   ')
+
+
+
+
+app.listen(PORT, () => console.log(gradient.pastel(`Ready for takeoff on runway ${PORT}`)))
